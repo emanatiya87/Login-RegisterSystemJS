@@ -9,7 +9,7 @@ This project demonstrates front-end form validation, localStorage user data stor
 - User login authentication using stored data in localStorage
 - Password strength enforcement using regex patterns
 - Responsive design with Bootstrap 5
-- Eroor handling with Modal popup for success/error messages
+- Error handling with Modal popup for success/error messages
 
 ## Demo
 
