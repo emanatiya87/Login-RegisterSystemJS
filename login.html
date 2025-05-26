@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- pop Up -->
+    <div class="modal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <p id="popUpContent"></p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- over lay -->
+    <div class="overlay"></div>
+    <!-- start header -->
+    <header>
+      <div class="container">
+        <h1 class="text-center pt-5 mt-3 mb-5 text-light text-capitalize">
+          Welcome to our Store
+        </h1>
+      </div>
+    </header>
+    <!-- form -->
+    <main>
+      <div class="conatiner-fluid bg-light rounded-5 p-3 position-relative">
+        <a href="index.html" class="home position-absolute top-0 text-dark"
+          ><i class="fa-solid fa-house"></i
+        ></a>
+        <div class="row">
+          <div class="col text-center">
+            <h2>Login</h2>
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col">
+            <div class="container">
+              <form>
+                <div class="row">
+                  <div class="col-12">
+                    <input
+                      required
+                      type="email"
+                      placeholder="Enter Your Email"
+                      id="email"
+                      class="rounded-5 m-auto mt-2 w-75 p-2"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <input
+                      required
+                      type="password"
+                      placeholder="Enter Your Password"
+                      id="password"
+                      class="rounded-5 m-auto mt-2 w-75 p-2"
+                    />
+                  </div>
+
+                  <div class="col-12">
+                    <input
+                      type="submit"
+                      value="Login"
+                      id="submit"
+                      class="rounded-5 m-auto mt-2 w-75 btn btn-dark p-2"
+                    />
+                  </div>
+                </div>
+              </form>
+              <div class="row mt-4">
+                <p>
+                  Don't have an account ?
+                  <a href="signUP.html" class="btn btn-light border">Sign Up</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/loginScript.js"></script>
+  </body>
+</html>
