@@ -1,6 +1,7 @@
 let name = document.getElementById("name");
 let email = document.getElementById("email");
 let password = document.getElementById("password");
+let gender = document.getElementById("gender");
 let popUpContent = document.getElementById("popUpContent");
 let passInfo = document.getElementById("passInfo");
 let myModal = new bootstrap.Modal(document.querySelector(".modal"));
@@ -34,6 +35,7 @@ document.querySelector("form").addEventListener("submit", function (e) {
     email: email.value,
     password: password.value,
     date: new Date().toDateString(),
+    gender: gender.value,
   };
 
   let exist = oldData.some((e) => e.email == user.email);
