@@ -33,6 +33,7 @@ document.querySelector("form").addEventListener("submit", function (e) {
     name: name.value,
     email: email.value,
     password: password.value,
+    date: new Date().toDateString(),
   };
 
   let exist = oldData.some((e) => e.email == user.email);
