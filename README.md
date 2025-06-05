@@ -14,7 +14,7 @@ This project demonstrates front-end form validation, localStorage user data stor
 
 ## Demo
 
-https://emanatiya87.github.io/Login-RegisterSystemJS/signUP.html
+https://emanatiya87.github.io/Login-RegisterSystemJS/
 
 ## Future Improvements
 
