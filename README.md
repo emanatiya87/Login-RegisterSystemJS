@@ -10,7 +10,7 @@ This project demonstrates front-end form validation, localStorage user data stor
 - Password strength enforcement using regex patterns
 - Responsive design with Bootstrap 5
 - Error handling with Modal popup for success/error messages
-- Profile page with log out for user
+- Profile page with log out for user and profile pic relative to gender
 
 ## Demo
 
